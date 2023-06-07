@@ -9,6 +9,5 @@ In order to simulate this recalling process, we will model this by a memory land
 
 To simulate the recalling process, a ball will be dropped onto the memory landscape. Using gradient descent with built-in-momentum (to simulate the fact that the "closer" you get to a memory, the faster you'll probably arrive at it, as well as being able to hop over the small pertubations which are harder to recall).
 
-
 This idea came about when reading Max Tegmarks Life 3.0 and his mention of Hopfield Networks. I heavily recommend everyone to read the book.
 
