@@ -1,5 +1,9 @@
 # Memory Landscape
-This project is an attempt to represent the physiology of the process of recalling memories in the human brain. 
+
+## Main idea
+This project is an attempt to represent the process of recalling memories in the human brain. 
+
+## Background
 
 The human brain consists of a complex network of neurons and synapses. Each and every event of the human experience triggers some neural path in our brains. The taste of a steak might remind you of a childhood memory, or the smell of a certain flower might remind you of the flowers your mother used to plant. Memories are recalled when the brain activates exactly those pathways associated with that memory in the brain. 
 
@@ -10,4 +14,10 @@ In order to simulate this recalling process, we will model this by a memory land
 To simulate the recalling process, a ball will be dropped onto the memory landscape. Using gradient descent with built-in-momentum (to simulate the fact that the "closer" you get to a memory, the faster you'll probably arrive at it, as well as being able to hop over the small pertubations which are harder to recall).
 
 This idea came about when reading Max Tegmarks Life 3.0 and his mention of Hopfield Networks. I heavily recommend everyone to read the book.
+
+## Main objective
+
+Our objective is to find the suitable number of memories for recalling a memory. In order to quantify this suitable number, we will for each number of N valleys calculate the mean number of iterations for convergence.
+
+
 
