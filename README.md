@@ -17,5 +17,5 @@ This idea came about when reading Max Tegmarks Life 3.0 and his mention of Hopfi
 
 ## Main objective
 
-Our objective is to find the suitable number of memories for recalling a memory. In order to quantify this suitable number, we will for each number of N valleys calculate the mean number of iterations for convergence. The result will be presented in a graph, from which we hopefully will be able to draw on some important conclusions. 
+Our objective is to find the suitable number of memories (valleys) for recalling a memory (converging towards a valley). In order to quantify this suitable number, we will for each number of N valleys calculate the mean number of iterations for convergence. The result will be presented in a graph, from which we hopefully will be able to draw on some important conclusions. 
 
